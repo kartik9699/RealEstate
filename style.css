@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Ensures images cover the space nicely */
+}
+
+h2 {
+    color: #333;
+}
+.property-type {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.property-type:hover {
+    background-color: #e2e6ea;
+}
